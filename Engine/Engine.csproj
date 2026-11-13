@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ChestCounter.Engine</AssemblyName>
+    <RootNamespace>ChestCounter</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\lib\FortniteReplayReader\FortniteReplayReader.csproj" />
+    <!-- Données de la chasse au trésor, lues par TreasureCatalog -->
+    <EmbeddedResource Include="content.json" LogicalName="content.json" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="App/FortniteStats.csproj" />
+  <Project Path="Engine/Engine.csproj" />
+  <Project Path="lib/FortniteReplayReader/FortniteReplayReader.csproj" />
+  <Project Path="lib/Unreal.Core/Unreal.Core.csproj" />
+  <Project Path="lib/Unreal.Encryption/Unreal.Encryption.csproj" />
+</Solution>
